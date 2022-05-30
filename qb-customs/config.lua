@@ -7,16 +7,17 @@ moneyType = 'bank'
 -- Add locations here
 -- Add jobs specific to the garage.
 bennyGarages = {
-    [1] = {coords = vector4(109.89, 6627.07, 31.78, 227.576), useJob = false, job = {""}}, -- Paleto Bay 1
-    [2] = {coords = vector4(105.278, 6621.45, 31.409, 225.734), useJob = false, job = {""}}, -- Paleto Bay 2
-    [3] = {coords = vector4(1174.866, 2639.107, 37.32, 359.716), useJob = false, job = {""}}, -- SandyShores 1
-    [4] = {coords = vector4(1182.109, 2639.328, 37.315, 359.716), useJob = false, job = {""}}, -- SandyShores 2
-    [5] = {coords = vector4(135.839, -3030.302, 6.603, 179.684), useJob = false, job = {""}}, -- Tunershop 1
-    [6] = {coords = vector4(1145.012,  -3030.394, 6.603, 179.684), useJob = false, job = {""}}, -- Tunershop 2
-    [7] = {coords = vector4(-32.158, -1054.049, 28.018, 40.0), useJob = false, job = {""}}, -- Hub by Pdm
-    [8] = {coords = vector4(-211.55, -1324.55, 30.90, 319.731), useJob = false, job = {""}}, -- Bennys
-    [9] = {coords = vector4(450.31, -976.1, 25.5, 90.25), useJob = false, job = {""}}, -- PDBennys
+    [1] = {coords = vector4(109.89, 6627.07, 31.78, 227.576), useJob = false,blip = true, job = {""}}, -- Paleto Bay 1
+    [2] = {coords = vector4(105.278, 6621.45, 31.409, 225.734), useJob = false,blip = true, job = {""}}, -- Paleto Bay 2
+    [3] = {coords = vector4(1174.866, 2639.107, 37.32, 359.716), useJob = false,blip = true, job = {""}}, -- SandyShores 1
+    [4] = {coords = vector4(1182.109, 2639.328, 37.315, 359.716), useJob = false,blip = true, job = {""}}, -- SandyShores 2
+    [5] = {coords = vector4(135.839, -3030.302, 6.603, 179.684), useJob = false,blip = true, job = {""}}, -- Tunershop 1
+    [6] = {coords = vector4(1145.012,  -3030.394, 6.603, 179.684), useJob = false,blip = true, job = {""}}, -- Tunershop 2
+    [7] = {coords = vector4(-32.158, -1054.049, 28.018, 40.0), useJob = false,blip = true, job = {""}}, -- Hub by Pdm
+    [8] = {coords = vector4(-211.55, -1324.55, 30.90, 319.731), useJob = false,blip = true, job = {""}}, -- Bennys
+    [9] = {coords = vector4(450.31, -976.1, 25.5, 90.25), useJob = false,blip = true, job = {""}}, -- PDBennys
 } 
+
 
 -- ADJUST PRICING
 
